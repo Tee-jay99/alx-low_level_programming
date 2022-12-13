@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-
+#include <stdio.h>
 /**
  * main - assign a random number
  *
@@ -28,3 +28,5 @@ int main(void)
 		printf("%d is negative\n", n);
 	}
 	return (0);
+}
+
