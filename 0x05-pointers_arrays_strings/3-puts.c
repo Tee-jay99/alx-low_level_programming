@@ -10,8 +10,5 @@ void _puts(char *str)
 	int insert;
 
 	for (insert = 0; str[insert] != '\0'; insert++)
-	{
-		_putchar(str[insert]);
-	}
-	_putchar('\n');
+		_puts(str[insert]);
 }
