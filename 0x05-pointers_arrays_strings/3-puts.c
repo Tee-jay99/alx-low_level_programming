@@ -1,8 +1,7 @@
 #include "main.h"
-#include <stdlib.h>
 
 /**
- * _puts - prints a string, followed by a new line
+ * _puts - prints a string, followed by a new line to stdout
  * @str: pointer to print the string
  * Return: void
  */
