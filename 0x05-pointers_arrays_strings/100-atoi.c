@@ -17,7 +17,7 @@ int _atoi(char *s)
 		if (*(s + insert) == '-')
 			pn *= -1;
 
-		if ((*(s + insert) >= '0') && (*(s + insert) < '9'))
+		if ((*(s + insert) >= '0') && (*(s + insert) <= '9'))
 		{
 			if (size > 0)
 				m *= 10;
