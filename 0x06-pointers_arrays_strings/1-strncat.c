@@ -2,9 +2,9 @@
 
 /**
  * _strncat - concatenates two strings and use at most n bytes from @src
- *  @src: pointer string to be appended to @dest
+ *  @src: pointer string to be appended to dest
  *  @dest: pointer string that will be concatenated upon
- *  @n: maximum number of bytes from @src to @dest
+ *  @n: maximum number of bytes from src to @dest
  *  Return: pointer to the resulting string dest
  */
 
