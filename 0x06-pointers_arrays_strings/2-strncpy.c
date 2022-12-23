@@ -13,10 +13,10 @@ char *_strncpy(char *dest, char *src, int n)
 	int insert = 0, src_len = 0;
 
 	while (src[insert++])
-	src_len++;
+		src_len++;
 	for (insert = 0; src[insert] && insert < n; insert++)
-	dest[insert] = src[insert]
+		dest[insert] = src[insert]
 	for (insert = src_len; insert < n; insert++)
-	dest[insert] = '\0';
+		dest[insert] = '\0';
 	return (dest);
-	}
+}
